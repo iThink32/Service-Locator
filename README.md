@@ -13,7 +13,7 @@ ServiceLocator.defaultLocator.type = ServiceLocatorType.mock
 To try it out check the code in ViewController:-
 
 ```
-        //the first two lines are just for innitializing the mock and remote manager ideally it should not be done here,im              doing it here to show you how Service Locator switches between API's
+        //the first two lines are just for innitializing the mock and remote manager ideally it should not be done here, im doing it here to show you how Service Locator switches between API's
         let mockManager = MockManager()
         let remoteManager = RemoteManager()
         
