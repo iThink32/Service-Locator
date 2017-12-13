@@ -14,6 +14,9 @@
 		6FE7AE1E1FE0F2B3006DDD24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE7AE1C1FE0F2B3006DDD24 /* LaunchScreen.storyboard */; };
 		6FE7AE291FE0F2B4006DDD24 /* Service_LocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7AE281FE0F2B4006DDD24 /* Service_LocatorTests.swift */; };
 		6FE7AE341FE0F2B4006DDD24 /* Service_LocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7AE331FE0F2B4006DDD24 /* Service_LocatorUITests.swift */; };
+		6FE7AE421FE0F301006DDD24 /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7AE411FE0F301006DDD24 /* ServiceLocator.swift */; };
+		6FE7AE441FE10ACB006DDD24 /* MockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7AE431FE10ACB006DDD24 /* MockManager.swift */; };
+		6FE7AE461FE10FBC006DDD24 /* RemoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7AE451FE10FBC006DDD24 /* RemoteManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		6FE7AE2F1FE0F2B4006DDD24 /* Service LocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Service LocatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE7AE331FE0F2B4006DDD24 /* Service_LocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service_LocatorUITests.swift; sourceTree = "<group>"; };
 		6FE7AE351FE0F2B4006DDD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE7AE411FE0F301006DDD24 /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+		6FE7AE431FE10ACB006DDD24 /* MockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockManager.swift; sourceTree = "<group>"; };
+		6FE7AE451FE10FBC006DDD24 /* RemoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				6FE7AE1A1FE0F2B3006DDD24 /* Assets.xcassets */,
 				6FE7AE1C1FE0F2B3006DDD24 /* LaunchScreen.storyboard */,
 				6FE7AE1F1FE0F2B3006DDD24 /* Info.plist */,
+				6FE7AE411FE0F301006DDD24 /* ServiceLocator.swift */,
+				6FE7AE431FE10ACB006DDD24 /* MockManager.swift */,
+				6FE7AE451FE10FBC006DDD24 /* RemoteManager.swift */,
 			);
 			path = "Service Locator";
 			sourceTree = "<group>";
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE7AE461FE10FBC006DDD24 /* RemoteManager.swift in Sources */,
+				6FE7AE421FE0F301006DDD24 /* ServiceLocator.swift in Sources */,
+				6FE7AE441FE10ACB006DDD24 /* MockManager.swift in Sources */,
 				6FE7AE161FE0F2B3006DDD24 /* ViewController.swift in Sources */,
 				6FE7AE141FE0F2B3006DDD24 /* AppDelegate.swift in Sources */,
 			);
