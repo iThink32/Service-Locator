@@ -1,4 +1,4 @@
-# Service-Locator-For-Functions-With-Different-Types
+# Simple-Service-Locator-For-Functions-With-Different-Types
 
 This project describes the use of a service locator which chooses between funcs having an input class model and an output class model stored in the mock api manager and the remote manager
 Note :- 
