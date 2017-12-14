@@ -24,14 +24,6 @@ final class ServiceLocator
     private var dictMockServices = [ObjectIdentifier:Any]()
     private var dictRemoteServices = [ObjectIdentifier:Any]()
     
-    func servicesDictionary() -> [ObjectIdentifier:Any]
-    {
-        guard ServiceLocator.defaultLocator.type == ServiceLocatorType.mock else{
-            return ServiceLocator.defaultLocator.dictRemoteServices
-        }
-        return ServiceLocator.defaultLocator.dictRemoteServices
-    }
-    
     func register<inputType,outputType>(type:ServiceLocatorType,method:  @escaping (inputType) -> outputType )
     {
         typealias funcType = (inputType) -> outputType
