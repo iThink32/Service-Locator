@@ -11,8 +11,9 @@ import UIKit
 class RemoteManager
 {
     
-    init() {
-        ServiceLocator.defaultLocator.register(type: ServiceLocatorType.remote,method:self.abc)
+    class func registerServices()
+    {
+        ServiceLocator.defaultLocator.register(type: ServiceLocatorType.remote,method:RemoteManager.abc)
     }
     
     func abc(model:TestModel) -> TestModel
