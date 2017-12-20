@@ -20,7 +20,15 @@ final class ServiceLocator
         print("nothing to do here, just to prevent others from using the init method")
     }
     
-    var type = ServiceLocatorType.mock
+    var type:ServiceLocatorType = ServiceLocatorType.mock {
+        willSet(newValue) {
+            guard newValue == ServiceLocatorType.mock else{
+                RemoteManager.registerServices()
+                return
+            }
+            MockManager.registerServices()
+        }
+    }
     private var dictMockServices = [ObjectIdentifier:Any]()
     private var dictRemoteServices = [ObjectIdentifier:Any]()
     
