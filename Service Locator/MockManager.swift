@@ -14,8 +14,9 @@ class TestModel{
 
 class MockManager{
     
-    init() {
-        ServiceLocator.defaultLocator.register(type: ServiceLocatorType.mock,method:self.abc)
+    class func registerServices()
+    {
+        ServiceLocator.defaultLocator.register(type: ServiceLocatorType.mock,method:MockManager.abc)
     }
     
     func abc(model:TestModel) -> TestModel
